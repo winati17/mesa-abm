@@ -1,10 +1,9 @@
 # Sugarscape Constant Growback Model with Traders
-
+ Mesa-ABM-Tutorial (https://github.com/SFIComplexityExplorer/Mesa-ABM-Tutorial)
 ## Summary
 
 This is Epstein & Axtell's Sugarscape model with Traders, a detailed description is in Chapter four of
-*Growing Artificial Societies: Social Science from the Bottom Up.* (1996). The code is broadly broken into sections of
-resource classes, trader class, model class and then data analysis. 
+*Growing Artificial Societies: Social Science from the Bottom Up.* (1996). The code is broadly broken into sections of resource classes, trader class, model class and then data analysis. 
 
 ### To Run
 
