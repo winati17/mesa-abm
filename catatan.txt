@@ -1,0 +1,17 @@
+dimulai dari session 6, saya ubah manual file mesa ku krn eror trs
+
+1. cari library mesa di local
+~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\mesa\agent.py
+2. buka file agent.py di text editor
+3. ubah __init__ method
+   dengan menghapus super().__init__(*args, **kwargs)
+   dan menjadikannya
+    class Agent:
+        def __init__(self, unique_id, model):
+            self.unique_id = unique_id
+            self.model = model
+4. restart environtment python nya
+5. cek implementasi agent terbaru (apakah sdh sesuai yg diubah)
+    import inspect
+    print(inspect.getsource(mesa.Agent.__init__))
+6. re-run kode nya
